@@ -1,0 +1,14 @@
+body {
+  background-color: #121212; /* Dark background color */
+  color: #fff; /* White text color */
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #bb86fc; /* Accent color for links */
+}
+
+a:hover {
+  color: #3700b3; /* Darker accent color on hover */
+}

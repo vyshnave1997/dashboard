@@ -1,0 +1,39 @@
+.drawer {
+  width: 250px;
+  background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  color: #fff; /* White text color */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  position: fixed; /* Fix sidebar in place */
+  left: 0;
+  top: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+}
+
+.drawer .MuiDrawer-paper {
+  width: 250px;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.drawer .MuiList-root {
+  flex-grow: 1;
+  padding: 0;
+}
+
+.menu-button {
+  margin: 16px;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

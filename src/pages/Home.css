@@ -1,0 +1,21 @@
+.home-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between components */
+  flex-grow: 1; /* Allow container to grow */
+  background-color: #121212; /* Dark background color */
+  color: #fff; /* White text color */
+}
+
+.paper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  border-radius: 10px; /* Rounded corners */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+  height: auto; /* Allow height to adjust based on content */
+}
